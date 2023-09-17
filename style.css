@@ -1,0 +1,225 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and default font to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles using flexbox */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c33d54;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Menu styles using flexbox */
+nav {
+    
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #b5f0e8;
+}
+
+/* Page container */
+main {
+    max-width:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page titles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Page switching buttons */
+#btnLogin, #btnRegister, #btnAppointment {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Page switching button styles on hover */
+#btnLogin:hover, #btnRegister:hover, #btnAppointment:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="time"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #btnLogin, #btnRegister, #btnAppointment {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Styles for div elements */
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for specific divs */
+/* Example: Customize the style for a div with a class "content" */
+div.content {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Example: Customize the style for a div with an ID "sidebar" */
+div#sidebar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.aboutus h2{
+    margin: 10px;
+    padding: 10px;
+
+}
+.register{
+    justify-content: center;
+}
+.login{
+    justify-content: center;
+}
+.contactus h1 {
+    margin: 10px;
+    padding: 10px;
+
+}
+.contactus p {
+    margin: 10px;
+    padding: 10px;
+
+}
